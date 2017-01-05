@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        fieldset{
+            background-color: bisque;
+            width:300px;
+            height:310px;
+            margin-left: 470px;
+            border: #fff854;
+            color: red;
+        }
+        body{
+            background-image: url("spiral-nicholas-fong-evolution.gif");
+        }
+        header{
+            background-color:antiquewhite;
+            width: 5 px;
+            height:0px;
+        }
+        footer {
+            background-color: #fff854;
+        }
+        a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+<header style="background-color: antiquewhite">
+    <nav><button><a href="login.html">LOGIN</a></button></nav>
+</header><br>
+<br>
+
+
+    <fieldset>
+        <legend>REGISTER</legend>
+        First name:
+        <input type="text" id="firstname" placeholder="firstname" name="firstname"><br><br>
+        Last name:
+        <input type="text" name="lastname" placeholder="lastname"><br><br>
+        Gender: Female
+        <input type="radio" name="gender">
+        Male
+        <input type="radio" name="gender"><br>
+        <br>
+        DOB:<input type="date" name="dob" placeholder="mm/dd/yyyy"><br><br>
+        Country:<select name="Country">
+        <option value="Nepal">Nepal</option>
+        <option value="China">China</option>
+        <option value="USA">USA</option>
+        <option value="India">India</option>
+        <option value="Japan">Japan</option>
+    </select><br> <br>
+        Address:<input type="text" placeholder="Address"> <br> <br>
+        Email:<input type="email" placeholder="name@deerwalk.edu.np"><br>
+
+
+    <br> <br>
+    <input type="button" onclick="location.href='login.html'" value="Submit">
+    </fieldset>
+<br>
+<br>
+<br>
+<footer> <marquee>REGISTER FOR THE ULTIMATE GAMING EXPERIENCE!</marquee></footer>
+
+</body>
+</html>

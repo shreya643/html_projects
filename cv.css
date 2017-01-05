@@ -1,0 +1,66 @@
+body{
+    background-image:url("imag.jpg");
+}
+th{
+    padding:10px;
+}
+th,tr,td{
+    border:4px solid black;
+    font-size: x-large;
+}
+table{
+    display: inline-block;
+    margin-left:410px;
+    text-emphasis-color:purple;
+    border:black;
+    width:30%;  
+    background:lightpink;
+    margin-bottom:100px;
+    border-collapse: collapse;
+}
+.boxed {
+    border: 1px solid black ;
+    margin-bottom:75px;
+    display:inline-block;
+    margin-left:410px;
+    width:380px;
+    height:200px;
+    font-size:x-large;
+    background-color: khaki;
+}
+img {
+    display:inline-block;
+    width: 15%;
+
+
+}
+
+h1{
+    font-family: "Bookman Old Style";
+    font-size: xx-large;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border:1px solid black;
+    background-color: antiquewhite;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
